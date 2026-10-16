@@ -1,0 +1,15 @@
+panel,category,sequence_count
+environment,Inside Polytunnel,8
+environment,Outside Polytunnel,14
+environment,Inside Vineyard,6
+environment,Outside Vineyard,8
+environment,Footpath,20
+environment,Farmside,9
+activity,Walking,40
+activity,Standing,3
+activity,Talking,4
+activity,Checking,11
+activity,Pushing,21
+activity,Carrying,9
+activity,Swapping,9
+activity,Picking,11

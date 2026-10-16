@@ -1,0 +1,17 @@
+scope,category,metric,value,unit
+QC candidate; all sequences,Temporal synchronisation,ZED RGB–LiDAR median absolute offset,20.3,ms
+QC candidate; all sequences,Temporal synchronisation,ZED depth–LiDAR median absolute offset,20.7,ms
+QC candidate; all sequences,Temporal synchronisation,Front fisheye–LiDAR median absolute offset,10.6,ms
+QC candidate; all sequences,Temporal synchronisation,Left fisheye–LiDAR median absolute offset,10.3,ms
+QC candidate; all sequences,Temporal synchronisation,Right fisheye–LiDAR median absolute offset,10.8,ms
+QC candidate; all sequences,Sensor streams,Expected sensor folders present and nonempty,390,folders
+QC candidate; all sequences,Depth maps,NaN/infinite/negative pixels detected,0,pixels
+QC candidate; all sequences,LiDAR point clouds,Empty or malformed PCD files detected,0,files
+QC candidate; all sequences,LiDAR point clouds,Non-finite XYZ coordinates detected,0,points
+QC candidate; filtered identity/track check,Identity and tracks,Remaining structural errors after exclusions,0,errors
+QC candidate; all sequences,Annotation sources,Annotation frames referencing a missing image or point cloud,0,frames
+QC candidate; all sequences,Bounding boxes,Malformed 2D boxes detected,0,boxes
+QC candidate; all sequences,Bounding boxes,Malformed 3D boxes detected,0,boxes
+QC candidate; six held-out test sequences,Temporal synchronisation,Matched ZED RGB–Livox median absolute offset,20.2,ms
+QC candidate; six held-out test sequences,Temporal synchronisation,Matched ZED RGB–Livox P95 absolute offset,64.3,ms
+QC candidate; six held-out test sequences,Temporal synchronisation,Matched ZED RGB–Livox maximum absolute offset,99.5,ms

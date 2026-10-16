@@ -79,6 +79,8 @@ AGHRI supports research on:
 
 The split is created at the **sequence level**, not the frame level, so frames from one recorded sequence do not appear in multiple splits.
 
+See [sequence counts, split-attribute overlap, and technical validation](docs/dataset_statistics.md) for the detailed tables and CSV files.
+
 ## Robotic Platform and Sensors
 
 AGHRI was collected using an **Agilex Hunter 2.0** mobile robot equipped with complementary vision and range sensors. The onboard computer was an **Intel NUC 11 Enthusiast Series** running **Ubuntu 22.04** and **ROS 2 Humble**.
@@ -635,3 +637,11 @@ The `main` branch brings together tools that were previously maintained across t
 The shared synchronisation and manifest tools are stored once under `shared/`, while format-specific instructions remain close to their corresponding exporters.
 
 The earlier branches remain available for development history. New users should normally use `main`.
+
+## Related Repositories
+
+These separate repositories cover additional AGHRI workflows:
+
+- [Label the AoC Rosbag Data](https://github.com/Cyano0/Label-the-AoC-Rosbag-Data) — annotation manual/tutorial.
+- [AGHRI-nuScenes-tools](https://github.com/Prabuddhi-05/AGHRI-nuScenes-tools) — conversion of AGHRI recordings to a nuScenes-style dataset and generation of information PKLs.
+- [AGHRI-BEVFusion](https://github.com/Prabuddhi-05/AGHRI-BEVFusion) — BEVFusion training and evaluation with the converted AGHRI data.
