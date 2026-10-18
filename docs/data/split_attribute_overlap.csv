@@ -1,0 +1,8 @@
+grouping_factor,train_val,train_test,val_test
+Recording date,3,3,3
+Participant ID,5,5,4
+Clothing/accessory appearance,2,1,0
+Environment,3,4,3
+Activity,5,6,4
+Robot state (st/mv),2,2,2
+Duplicated sensor content in sequences,0,0,0
