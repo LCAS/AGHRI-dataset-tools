@@ -642,6 +642,6 @@ The earlier branches remain available for development history. New users should 
 
 These separate repositories cover additional AGHRI workflows:
 
-- [Label the AoC Rosbag Data](https://github.com/Cyano0/Label-the-AoC-Rosbag-Data) — annotation manual/tutorial.
+- [Label the AoC Rosbag Data](https://github.com/LCAS/Label-the-AoC-Rosbag-Data) — annotation manual/tutorial.
 - [AGHRI-nuScenes-tools](https://github.com/Prabuddhi-05/AGHRI-nuScenes-tools) — conversion of AGHRI recordings to a nuScenes-style dataset and generation of information PKLs.
 - [AGHRI-BEVFusion](https://github.com/Prabuddhi-05/AGHRI-BEVFusion) — BEVFusion training and evaluation with the converted AGHRI data.
